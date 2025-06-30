@@ -1,0 +1,22 @@
+{
+    "name": "yonatan/14_appsalon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Modelo\\": "models/",
+            "Controlador\\": "controllers/",
+            "MVC\\": "./",
+            "Clases\\": "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Helldragon666",
+            "email": "76540919+Helldragon666@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
